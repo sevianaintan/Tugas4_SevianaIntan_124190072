@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="20pt"
+        android:textAlignment="center"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="textCapWords"
+        android:layout_marginBottom="16dp"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:layout_above="@+id/edittext_password">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textCapWords"
+        android:layout_centerVertical="true"
+        android:textSize="30sp"
+        android:fontFamily="monospace">
+    </EditText>
+
+    <Button
+        android:text="LOGIN"
+        android:textColor="#FFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button2"
+        android:textStyle="normal|bold">
+    </Button>
+</LinearLayout>
